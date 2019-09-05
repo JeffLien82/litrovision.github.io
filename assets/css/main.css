@@ -180,10 +180,11 @@ img.resizeimage {
 
 	p {
 		margin: 0 0 2em 0;
+		color: #272425;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #272425;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -1843,7 +1844,7 @@ img.resizeimage {
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #272425 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -2303,7 +2304,7 @@ img.resizeimage {
 		}
 
 	label {
-		color: #ffffff;
+		color: #272425;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
@@ -2523,11 +2524,11 @@ img.resizeimage {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #3fc55c;
+					color: #272425;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #3fc55c;
+					color: #272425;
 				}
 
 				.wrapper.style2 .icon.major:before {
@@ -2539,7 +2540,7 @@ img.resizeimage {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #55B947;
+					color: #272425;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
