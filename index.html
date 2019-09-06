@@ -22,10 +22,10 @@
 						<li><a href="#intro">Welcome</a></li>
 						<li><a href="#one">Testimonials</a></li>
 						<li><a href="#two">Product Attributes</a></li>
-						<li><a href="#three">Usages</a></li>
-						<li><a href="#four">Information</a></li>
+						<li><a href="#three">Usage</a></li>
+						<li><a href="#four">Product Information</a></li>
 						<li><a href="#five">Certifications</a></li>
-						<li><a href="#six">Get in touch</a></li>
+						<li><a href="#six">Contact Us</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -42,7 +42,7 @@
 					<div class="row" style="text-align: center;">
 						<ul class="actions" style="width: 80%; display: inline-block; margin: auto;">
 							<li style="display: inline;"><a href="#one" class="button scrolly">Learn more</a></li>
-							<li style="display: inline;"><a href="purchase.html" class="button scrolly">Order Now</a></li>
+							<li style="display: inline;"><a href="#six" class="button scrolly">Order Now</a></li>
 							<li style="display: inline;"><a href="files/LitroVision_SellSheet_PRINT.pdf" target="_blank" class="button scrolly">View Sell Sheet</a></li>
 						</ul>
 					</div>
@@ -53,7 +53,7 @@
 			<section id="one" class="wrapper style3 spotlights">
 				<div class="inner">
 					<h2>Testimonials</h2>
-					<video width="720" height="auto" controls>
+					<video width="100%" height="auto" controls>
 						<source src="videos/LitroVision.mp4" type="video/mp4">
 					</video>
 					<!-- <iframe horizontal-align="center" width="560" height="315" src="https://www.youtube-nocookie.com/embed/tlThdr3O5Qo" 
@@ -76,7 +76,7 @@
 						<section>
 							<span class="icon major fa-lock"></span>
 							<h3>Simple</h3>
-							<p>Photoluminescent material is energized by the UV light given off by modern fluorescent and LED bulbs.</p>
+							<p>Photoluminescent material is energized by the UV light emitted by modern fluorescent and LED bulbs.</p>
 						</section>
 						<section>
 							<span class="icon major fa-cog"></span>
@@ -86,12 +86,12 @@
 						<section>
 							<span class="icon major fa-desktop"></span>
 							<h3>Practical</h3>
-							<p>Does not diminish bulbs typical luminous efficiacy.</p>
+							<p>Does not diminish bulbs typical luminous efficacy.</p>
 						</section>
 						<section>
 							<span class="icon major fa-chain"></span>
 							<h3>Sustainable</h3>
-							<p><i>LitroVision</i> is environmentally green, no batteries required. No batteries, no maintenence. Simply replace the <i>LitroVision</i> sleeve when you replace your bulbs.</p>
+							<p><i>LitroVision</i> is environmentally green, no batteries required. No batteries...No maintenence! Simply replace the <i>LitroVision</i> sleeve when you replace your bulbs.</p>
 						</section>
 						<section>
 							<span class="icon major fa-diamond"></span>
@@ -106,8 +106,8 @@
 			<section id="three" class="wrapper style2-alt spotlights">
 				<div class="inner">
 					<h2>Where can <i>LitroVision</i> be used?</h2>
-					<p>Emergency lighting is commonly mandatory in all commercial, industrial, educational, religious, institutional, public housing, 
-						medical and many other types of facilities. Below are more examples of places where <i>LitroVision</i> can supplement your already
+					<p>Emergency lighting is typically mandatory in all commercial, industrial, educational, religious, institutional, public housing, 
+						medical and other facility types. Below are a few of places where <i>LitroVision</i> can supplement your already
 						existing emergency lighting system.</p>
 
 					<div class="box alt">
@@ -115,16 +115,16 @@
 							<div class="col-1"></div>
 							<div class="col-5">
 								<section class="box">
-									<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
+									<span class="image fit"><img src="images/warehouse1.png" alt="" /></span>
 									<h3>Commercial Buildings</h3>
-									<p>Warehouses, retail stores, manufacturing plants, any facility.</p>
+									<p>Warehouses, retail stores, manufacturing plants, storage, maintenance facilities, etc.</p>
 								</section>
 							</div>
 							<div class="col-5">
 								<section class="box">
 									<span class="image fit"><img src="images/DSC_9376_edited.png" alt="" /></span>
 									<h3>Public Buildings</h3>
-									<p>Schools, government buildings, office complexes, hospitals, nursing homes.</p>
+									<p>Schools, government buildings, office complexes, hospitals, assisted living and long-term care facilities, etc.</p>
 								</section>
 							</div>
 							<div class="col-1"></div>
@@ -144,7 +144,7 @@
 						<div class="col-8" style="display: flex; justify-content: left; align-items: center;">
 							<div>
 								<h2>Installation</h2>
-								<p>Easy to install, they simply snap onto the bulb.</p>
+								<p>Easy to install! Sleeve simply snaps onto the bulb.</p>
 							</div>
 						</div>
 					</div>
@@ -177,19 +177,15 @@
 			<!-- Six -->
 			<section id="six" class="wrapper style1 fade-up">
 				<div class="inner">
-					<h2>Get in touch</h2>
+					<h2>Contact Us</h2>
 					<p>For more information, please contact us.</p>
 					<div class="split style1">
 						<section>
-							<form method="post" action="#">
+							<form>
 								<div class="fields">
 									<div class="field half">
 										<label for="name">Name</label>
 										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
@@ -197,7 +193,7 @@
 									</div>
 								</div>
 								<ul class="actions">
-									<li><a href="" class="button submit">Send Message</a></li>
+									<li><button class="button scrolly" onclick="sendMail(); return false">Send Message</button></li>
 								</ul>
 							</form>
 						</section>
@@ -251,6 +247,7 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script src="js/scripts.js"></script>
 
 	</body>
 </html>
